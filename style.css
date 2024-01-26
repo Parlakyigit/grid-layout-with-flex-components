@@ -10,12 +10,18 @@
   max-width: 1000px;
 }
 
+body {
+  font-family: Arial, Helvitica, sans-serif;
+  color: #222;
+}
+
 .emoji {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  border: 1px solid black;
-  border-radius: 10px;
+  border: 1px solid #222;
+  border-radius: 8px;
+  padding: 1rem;
 }
 h1 {
   padding: 5px;
@@ -25,8 +31,9 @@ h2 {
   display: flex;
   padding: 10px;
   margin-top: 100px;
+  margin: 0;
   position: relative;
-  border-bottom: 2px solid grey;
+  border-bottom: 2px solid #ccc;
   text-align: left;
   width: 90%;
 }
@@ -36,8 +43,8 @@ a {
   padding: 10px;
   align-self: bottom;
   border: 1px solid black;
-  border-radius: 5px;
-  background: purple;
+  border-radius: 8px;
+  background: #781baa;
   text-decoration: none;
   margin: 10px;
   width: 450px;
@@ -53,7 +60,7 @@ a {
   position: absolute;
   min-height: 15vh;
   line-height: 25px;
-  font-size: 50px;
+  font-size: 4rem;
 }
 
 p {
